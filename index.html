@@ -19,7 +19,7 @@
 	<section class="site-container">
 	
 		<header>
-			<h1>JOSEPH WARNER</h1>
+			<h1><a href="index.html">JOSEPH WARNER</a></h1>
 
 			<!--<i class="fa-solid fa-bars"></i> for hamburger menu when implemented-->
 			<nav>
@@ -27,7 +27,7 @@
 					<li><a href="#home"><p class="nav-para">Home</p></a></li>
 					<li><a href="#about"><p class="nav-para">My Story</p></a></li>
 					<li><a href="#projects"><p class="nav-para">Projects</p></a></li>
-					<li><span class="btn btn-dark">Contact</span></li>
+					<li><span class="btn btn-dark"><a href="#contact-container">Contact</a></span></li>
 				</ul>
 			</nav>
 			
@@ -35,15 +35,15 @@
 	
 		<main id="home">
 			<h2>Joe Warner</h2>
-			<hr>
+			<hr class="name-hr">
 			<p>Hi, my name is Joe. I am a full stack web developer based in Milwaukee, WI and I would love to write some code for you!</p>
-			<span class="btn btn-light">Projects</span>
-			<span class="btn btn-dark">Contact</span>
+			<span class="btn btn-light"><a href="#projects">Projects</a></span>
+			<span class="btn btn-dark"><a href="#contact-container">Contact</a></span>
 		</main>
 
 		<section id="about">
 			<h2>My Story</h2>
-			<hr>
+			<hr class="h2-hr">
 			<p>I am a full stack web developer based in Milwaukee, WI. As a teenager, I loved toying around with Geocities but when it became too limiting, I taught myself HTML and a bit of CSS (my apologies, I wrote all my styles inline back then!) and spent my high school days making websites for my friend's bands using an absurd amount of frames, tables, and flash. Though I have moved on from Notepad to VS Code, I still have the same passion for learning new technologies that drove a 14 year old to figure out how on earth an FTP program worked. The stack I am currently experienced with contains the following technologies, but I am always eager to add more!</p>
 			<div>
 				<ul>
@@ -57,29 +57,7 @@
 
 		<section class="projects-container" id="projects">
 			<h2>Projects</h2>
-			<hr>
-			
-			<section class="project-card">
-				<img src="project1.jpg" class="project-image">
-				<h4 class="project-name">HabitApp</h4>
-				<hr class="project-hr">
-				<p class="project-para">A task management app meant for building better habits.</p>
-				<div class="tech-stack-container">
-					<ul class="tech-stack-list">
-						<li><i class="fa-brands fa-html5 stack-icon"></i></li>
-						<li><i class="fa-brands fa-css3-alt stack-icon"></i></li>
-						<li><i class="fa-brands fa-js stack-icon"></i></li>
-						<li><i class="fa-solid fa-code stack-icon"></i></li>
-					</ul>
-				</div>
-
-				<div class="project-links-container">
-					<ul class="project-links">
-						<li><a href="https://www.github.com/warnerjoe" target="_blank"><i class="fa-brands fa-github"></i></a></li>
-						<li><a href="http://www.google.com"><i class="fa-solid fa-link"></i></a></li>
-					</ul>
-				</div>
-			</section>
+			<hr class="h2-hr">
 
 			<section class="project-card">
 				<img src="project1.jpg" class="project-image">
@@ -147,30 +125,38 @@
 				</div>
 			</section>
 
+			<section class="project-card">
+				<img src="project1.jpg" class="project-image">
+				<h4 class="project-name">HabitApp</h4>
+				<hr class="project-hr">
+				<p class="project-para">A task management app meant for building better habits.</p>
+				<div class="tech-stack-container">
+					<ul class="tech-stack-list">
+						<li><i class="fa-brands fa-html5 stack-icon"></i></li>
+						<li><i class="fa-brands fa-css3-alt stack-icon"></i></li>
+						<li><i class="fa-brands fa-js stack-icon"></i></li>
+						<li><i class="fa-solid fa-code stack-icon"></i></li>
+					</ul>
+				</div>
 
+				<div class="project-links-container">
+					<ul class="project-links">
+						<li><a href="https://www.github.com/warnerjoe" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+						<li><a href="http://www.google.com"><i class="fa-solid fa-link"></i></a></li>
+					</ul>
+				</div>
+			</section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-		<section id="contact">
+		<section id="contact-container">
 			<h2>Contact</h2>
-			<hr>
+			<hr class="h2-hr">
 			<form>
 				<label for="contact-name">Name</label>
-				<input name="contact-name">
+				<input type="text" class="input-small" name="contact-name" placeholder="Your Name">
 				<label for="contact-email">Email Address</label>
-				<input name="contact-email">
+				<input type="email" class="input-small" name="contact-email" placeholder="Email address">
 				<label for="contact-message">Your message</label>
-				<input name="contact-message">
+				<textarea id="contact-message" name="contact-message">Write your message here</textarea>
 				<span class="btn btn-dark">Submit</span>
 			</form>
 		</section>
