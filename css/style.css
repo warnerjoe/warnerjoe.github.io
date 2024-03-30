@@ -144,7 +144,73 @@ nav li {
 /******************************************
 /* HOME STYLES
 /*******************************************/
+#home-container {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  flex-grow: 0; 
+  flex-shrink: 0; 
+  width: 1440px; 
+  overflow: hidden; 
+  gap: 10px; 
+  padding-left: 270px; 
+  padding-right: 270px; 
+  padding-top: 25px; 
+  padding-bottom: 25px;
+}
 
+.home-container {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  align-self: stretch; 
+  flex-grow: 0; 
+  flex-shrink: 0; 
+  gap: 25px;
+  padding: 0px;
+}
+
+.home-heading {
+  width: 900px; 
+  font-size: 48px; 
+  text-align: center; 
+  color: #111;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  align-self: stretch; 
+  flex-grow: 0; 
+  flex-shrink: 0; 
+  position: relative; 
+  gap: 10px; 
+  padding-top: 10px; 
+  padding-bottom: 10px;
+}
+
+.home-hr {
+  width: 264px;
+  height: 1px;
+}
+
+.home-para {
+  flex-grow: 1; 
+  width: 800px; 
+  font-size: 18px; 
+  text-align: center; 
+  color: #111;
+}
+
+.home-buttons {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  flex-grow: 0; 
+  flex-shrink: 0; 
+  width: 465px; 
+  gap: 61px;
+}
 /******************************************
 /* ABOUT STYLES
 /*******************************************/
@@ -382,8 +448,6 @@ footer li {
   display: flex;
   justify-content: center; 
   align-items: center; 
-  flex-grow: 0; 
-  flex-shrink: 0; 
   width: 202px; 
   position: relative; 
   overflow: hidden; 
@@ -396,14 +460,17 @@ footer li {
   font-size: 24px; 
 }
 
-.btn-light {
-  color: #111;
-  background: #fff;
+.home-buttons span {
+  border: 1px solid black;
+}
+
+#light-btn {
+  display: flex; 
+  border-radius: 10px; 
+  background: #fff; 
 }
 
 .btn-dark {
-  flex-grow: 0; 
-  flex-shrink: 0; 
   color: #fff;
   background: #111;
 }
