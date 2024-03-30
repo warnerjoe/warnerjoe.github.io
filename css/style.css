@@ -1,0 +1,85 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #dbdbdb; 
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  color: #735135;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  height: 1.21rem;
+}
+
+li {
+  display: inline-block;
+}
+
+h1 {
+  font-size: 4.8rem;
+}
+
+h2 {
+  font-size: 3.6rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+i {
+  font-size: 3rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+footer li {
+  margin: 1rem;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.btn-primary {
+  height: 4.9rem;
+  width: 20.2rem;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
