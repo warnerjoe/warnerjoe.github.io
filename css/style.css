@@ -7,12 +7,12 @@
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
@@ -43,31 +43,20 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-header {
-  display: flex; 
-justify-content: space-between; 
-align-items: center; 
-flex-grow: 0; 
-flex-shrink: 0; 
-width: 1440px; 
-overflow: hidden; 
-padding-left: 32px; 
-padding-right: 32px; 
-padding-top: 36px; 
-padding-bottom: 36px;
-}
-
 li {
   display: inline-block;
 }
 
+/******************************************
+/* TYPEFACE STYLES
+/*******************************************/
 h1 {
   flex-grow: 0; 
-flex-shrink: 0; 
-font-size: 32px; 
-font-weight: 700; 
-text-align: center; 
-color: #111;
+  flex-shrink: 0; 
+  font-size: 32px; 
+  font-weight: 700; 
+  text-align: center; 
+  color: #111;
 }
 
 h2 {
@@ -79,9 +68,152 @@ h3 {
 }
 
 i {
-  font-size: 3rem;
+  flex-grow: 0; 
+  flex-shrink: 0; 
+  font-size: 35px; 
+  position: relative;
 }
 
+/******************************************
+/* <HEADER> STYLES
+/*******************************************/
+header {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  flex-grow: 0; 
+  flex-shrink: 0; 
+  width: 1440px; 
+  overflow: hidden; 
+  padding-left: 32px; 
+  padding-right: 32px; 
+  padding-top: 36px; 
+  padding-bottom: 36px;
+}
+nav {
+  display: flex; 
+  justify-content: flex-start; 
+  align-items: center; 
+  flex-grow: 0; 
+  flex-shrink: 0; 
+  position: relative;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-grow: 0; 
+  flex-shrink: 0; 
+  gap: 10px;
+}
+
+nav li {
+  position: relative; 
+}
+
+.nav-para {
+  flex-grow: 0; 
+  flex-shrink: 0; 
+  font-size: 24px; 
+  text-align: left; 
+  color: #000;
+}
+/******************************************
+/* HOME STYLES
+/*******************************************/
+
+/******************************************
+/* ABOUT STYLES
+/*******************************************/
+
+/******************************************
+/* PROJECT STYLES
+/*******************************************/
+.projects-container {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  flex-grow: 0; 
+  flex-shrink: 0; 
+  width: 1101px; 
+  gap: 113px;
+}
+
+.project-card {
+  display: flex; 
+flex-direction: column; 
+justify-content: flex-start; 
+align-items: flex-start; 
+flex-grow: 1; 
+position: relative; 
+gap: 10px;
+  
+}
+
+.project-image {
+  width: 495px;
+  height: 374px;
+  align-self: stretch; 
+  flex-grow: 0; 
+  flex-shrink: 0; 
+  height: 374px; 
+  position: relative;
+}
+
+.project-name {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  align-self: stretch; 
+  flex-grow: 0; 
+  flex-shrink: 0; 
+  position: relative; 
+  gap: 10px; 
+  padding-top: 10px; 
+  padding-bottom: 10px;
+  flex-grow: 1; 
+  width: 494px; 
+  font-size: 24px; 
+  text-align: left; 
+  color: #111;
+}
+
+.project-hr {
+  width: 495px;
+  height: 1px;
+  align-self: stretch; 
+  flex-grow: 0; 
+  flex-shrink: 0;
+}
+
+.project-para {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  align-self: stretch; 
+  flex-grow: 0; 
+  flex-shrink: 0; 
+  position: relative; 
+  gap: 10px; 
+  padding-top: 10px; 
+  padding-bottom: 10px;
+  flex-grow: 1; 
+  
+  width: 494px; 
+  font-size: 18px; 
+  text-align: left; 
+  color: #111;
+}
+
+/******************************************
+/* FORM STYLES
+/*******************************************/
+
+/******************************************
+/* FOOTER STYLES
+/*******************************************/
 footer {
   display: flex;
   justify-content: center;
@@ -92,9 +224,8 @@ footer li {
   margin: 1rem;
 }
 
-
 /******************************************
-/* LAYOUT
+/* BUTTON STYLES
 /*******************************************/
 
 .btn {
@@ -126,38 +257,3 @@ footer li {
   color: #fff;
   background: #111;
 }
-
-nav {
-  display: flex; 
-  justify-content: flex-start; 
-  align-items: center; 
-  flex-grow: 0; 
-  flex-shrink: 0; 
-  position: relative;
-}
-
-nav ul {
-  display: flex;
-  justify-content: center; 
-  align-items: center; 
-  flex-grow: 0; 
-  flex-shrink: 0; 
-  gap: 10px;
-}
-
-nav li {
-  display: inline-block; 
-  position: relative; 
-}
-
-.nav-para {
-  flex-grow: 0; 
-  flex-shrink: 0; 
-  font-size: 24px; 
-  text-align: left; 
-  color: #000;
-}
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
