@@ -23,14 +23,13 @@
 /* BASE STYLES
 /*******************************************/
 html {
-  font-size: 62.5%;
+  /*font-size: 62.5%;*/
 }
 
 body {
   background-color: #dbdbdb; 
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  color: #735135;
 }
 
 html, body {
@@ -45,6 +44,17 @@ html, body {
 
 li {
   display: inline-block;
+}
+
+.site-container {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: center; 
+  width: 1440px; 
+  gap: 25px; 
+  background: #fff;
+  margin-left: 10%;
 }
 
 /******************************************
@@ -210,6 +220,22 @@ gap: 10px;
 /******************************************
 /* FORM STYLES
 /*******************************************/
+#contact {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  flex-grow: 0; 
+  flex-shrink: 0; 
+  width: 1440px; 
+  overflow: hidden; 
+  gap: 25px; 
+  padding-left: 165px; 
+  padding-right: 165px; 
+  padding-top: 25px; 
+  padding-bottom: 25px;
+}
+
 
 /******************************************
 /* FOOTER STYLES
