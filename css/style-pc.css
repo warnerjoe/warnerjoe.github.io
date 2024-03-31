@@ -37,6 +37,7 @@ body {
 .site-container {
   margin: auto;
   width: 90%;
+  max-width: 144rem;
 }
 
 button, input[type="submit"], input[type="reset"] {
