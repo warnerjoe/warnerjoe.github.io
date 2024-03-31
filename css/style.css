@@ -368,13 +368,25 @@ form > input {
   font-size: 1.8rem; 
   text-align: left; 
   color: #5e5e5e;
+
+  padding: 10px; 
+  border-radius: 10px; 
+  background: #fff; 
+  border-width: 1px; 
+  border-color: #5e5e5e;
 }
 
 form > textarea {
   width: 26rem; 
-  font-size: 1.8rem; 
+  font-size: 1.2rem; 
   text-align: left; 
   color: #5e5e5e;
+  resize: none;
+  padding: 10px; 
+  border-radius: 10px; 
+  background: #fff; 
+  border-width: 1px; 
+  border-color: #5e5e5e;
 }
 
 form > span > button {
@@ -390,12 +402,15 @@ FOOTER
 footer {
   width: 100%;
   display: flex;
-  align-content: center;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
 }
 
 footer li {
+  list-style-type: none;
   margin: 1rem;
-  display: inline-block;
+  display: inline;
 }
 
 .socials {
