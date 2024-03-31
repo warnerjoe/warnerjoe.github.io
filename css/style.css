@@ -299,62 +299,71 @@ ABOUT
 PROJECTS
 *************************************/
 .project-card {
-  margin: 2.4rem;
-
-  display: flex; 
-  flex-direction: column; 
-  justify-content: flex-start; 
-  align-items: flex-start; 
-  align-self: stretch; 
-  gap: 10px;
-  width: 85%;
-}
-
-h4 {
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
-  align-self: stretch; 
-  gap: 10px; 
-  padding-top: 10px; 
-  padding-bottom: 10px;
-  flex-grow: 1; 
-  width: 100%; 
-  font-size: 24px; 
-  text-align: left; 
-  color: #111;
+  padding: 2.5rem 2.4rem;
 }
 
 .project-image {
   max-width: 100%;
 }
 
+.project-name {
+  width: 32.7rem; 
+  font-size: 2.4rem; 
+  text-align: left; 
+  color: #111;
+}
+
 .project-hr {
-  width: 327px;
-  height: 1px;
+  width: 32.7rem;
+  height: .1rem;
 }
 
 .project-para {
-  flex-grow: 1; width: 327px; font-size: 18px; text-align: left; color: #111;
+  flex-grow: 1; 
+  width: 32.7rem; 
+  font-size: 1.8rem; 
+  text-align: left; 
+  color: #111;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .tech-stack-container {
-  display: flex; 
-  justify-content: space-evenly; 
-  align-items: flex-start; 
-  align-self: stretch; 
-  flex-grow: 0; 
-  flex-shrink: 0; 
-  gap: 36px;
   width: 100%;
 }
 
+.tech-stack-container ul {
+  display: flex; 
+  justify-content: space-evenly; 
+}
+
 .project-card i {
-  font-size: 1.2rem;
+  font-size: 3.5rem;
 }
 
 .project-card li {
   display: inline-block;
+}
+
+.project-links-container ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.project-links-container li {
+  margin: 0 2rem;
+}
+
+
+.code-link {
+  color: #111;
+  text-decoration: inherit;
+}
+
+.code-link:visited {
+  color: inherit;
+  text-decoration: inherit;
 }
 
 /*************************************
