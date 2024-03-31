@@ -204,24 +204,6 @@ header {
     position: absolute;
   }
   
-  .heading-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-  }
-  
-  h2 {
-    margin-top: 10rem;
-    width: 880px; 
-    font-size: 36px; 
-    text-align: center;
-  }
-  
-  .h2-hr {
-    height: .1rem;
-    width: 26.4rem;
-  }
+
   
 }

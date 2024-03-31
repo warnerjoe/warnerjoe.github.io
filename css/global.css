@@ -1,120 +1,88 @@
+/*************************************
+GLOBAL STYLING
+*************************************/
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    color: black;
+}
+
+.site-container {
+    margin: auto;
+    width: 90%;
+    max-width: 144rem;
+}
+
+button, input[type="submit"], input[type="reset"] {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.heading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h2 {
+    margin-top: 10rem;
+    width: 880px; 
+    font-size: 3.6rem; 
+    text-align: center;
+  }
+  
+  .h2-hr {
+    height: .1rem;
+    width: 26.4rem;
+  }
+
 /**************************************************************************
 MOBILE LAYOUT
 **************************************************************************/
 @media (max-width: 600px) {
-  /*************************************
-GLOBAL
-*************************************/
-/* Box Model Hack */
-* {
-    box-sizing: border-box;
-  }
-  
-  
-  
-  /* Clear fix hack */
-  .clearfix:after {
-       content: ".";
-       display: block;
-       clear: both;
-       visibility: hidden;
-       line-height: 0;
-       height: 0;
-  }
-  
-  .clear {
-      clear: both;
-  }
-  
-  html {
-    font-size: 62.5%;
-  }
-  
-  body {
-    font-family: "Inter", sans-serif;
-    color: black;
-  }
-  
-  .site-container {
-    width: 100%;
-  }
-  
-  h2 {
-    font-size: 3.6rem; 
-    text-align: center; 
-    color: #111;
-  
-  }
-  
-  .h2-hr {
-    width: 263px;
-    height: 1px;
-  }
-  
-  button, input[type="submit"], input[type="reset"] {
-      background: none;
-      color: inherit;
-      border: none;
-      padding: 0;
-      font: inherit;
-      cursor: pointer;
-      outline: inherit;
-  }
-}
+ 
+    .site-container {
+        width: 100%;
+    }
 
-/**************************************************************************
-PC LAYOUT
-**************************************************************************/
-@media (min-width: 600px) {
-/************************************
-GLOBAL
-*************************************/
-/* Box Model Hack */
-* {
-    box-sizing: border-box;
-  }
-  
-  /* Clear fix hack */
-  .clearfix:after {
-       content: ".";
-       display: block;
-       clear: both;
-       visibility: hidden;
-       line-height: 0;
-       height: 0;
-  }
-  
-  .clear {
-      clear: both;
-  }
-  
-  html {
-    font-size: 62.5%;
-  }
-  
-  body {
-    font-family: "Inter", sans-serif;
-    color: black;
-  }
-  
-  .site-container {
-    margin: auto;
-    width: 90%;
-    max-width: 144rem;
-  }
-  
-  button, input[type="submit"], input[type="reset"] {
-      background: none;
-      color: inherit;
-      border: none;
-      padding: 0;
-      font: inherit;
-      cursor: pointer;
-      outline: inherit;
-  }
-  
-  a {
-    color: inherit;
-    text-decoration: inherit;
-  }
+    h2:first-of-type {
+        display: none;
+    }
+
+    .home-hr {
+        display: none;
+    }
 }
