@@ -365,4 +365,11 @@ BUTTON
   color: #111;
 }
 
+main > div > a {
+  border-radius: 1rem; 
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -khtml-border-radius: 1rem;
+}
+
 
