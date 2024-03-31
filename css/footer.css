@@ -1,0 +1,49 @@
+/**************************************************************************
+MOBILE LAYOUT
+**************************************************************************/
+@media (max-width: 600px) {
+/*************************************
+FOOTER
+*************************************/
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  footer li {
+    list-style-type: none;
+    margin: 1rem;
+    display: inline;
+  }
+  
+  .socials {
+    font-size: 3.6rem;
+  }
+}
+
+/**************************************************************************
+PC LAYOUT
+**************************************************************************/
+@media (min-width: 600px) {
+    
+/*************************************
+FOOTER
+*************************************/
+
+footer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer li {
+    display: inline-block;
+    margin: 2rem;
+  }
+  
+  footer i {
+    font-size: 5rem;
+  }
+}
