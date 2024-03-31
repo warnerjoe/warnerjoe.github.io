@@ -6,6 +6,8 @@ GLOBAL
   box-sizing: border-box;
 }
 
+
+
 /* Clear fix hack */
 .clearfix:after {
      content: ".";
@@ -20,9 +22,12 @@ GLOBAL
 	clear: both;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: "Inter", sans-serif;
-  font-size: 62.5%;
   color: black;
 }
 
@@ -245,7 +250,8 @@ HOME
 }
 
 .home-para {
-  flex-grow: 1; 
+  width: 25.5rem;
+  line-height: 3rem;
   font-size: 2.1rem; 
   text-align: center; 
   color: #111;
@@ -263,13 +269,31 @@ HOME
 ABOUT
 *************************************/
 .about-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  padding-left: 6rem; 
+  padding-right: 6rem; 
+  padding-top: 1rem; 
+  padding-bottom: 1rem;
 }
 
 .about-para {
-  width: 327px; 
+  flex-basis: 100%;
+  flex-basis: 1 5;
   font-size: 18px; 
-  text-align: left; 
+  text-align: center; 
   color: #111;
+}
+
+.about-container li {
+  display: inline-block;
+  margin: 1rem;
+}
+
+.about-container i {
+  font-size: 2.4rem;
 }
 /*************************************
 PROJECTS
@@ -364,21 +388,21 @@ form > label {
 }
 
 form > input {
-  width: 26rem; 
+  width: 32.7rem; 
   font-size: 1.8rem; 
   text-align: left; 
   color: #5e5e5e;
 
-  padding: 10px; 
-  border-radius: 10px; 
+  padding: 1rem; 
+  border-radius: 1rem; 
   background: #fff; 
   border-width: 1px; 
   border-color: #5e5e5e;
 }
 
 form > textarea {
-  width: 26rem; 
-  font-size: 1.2rem; 
+  width: 32.7rem; 
+  font-size: 1.8rem; 
   text-align: left; 
   color: #5e5e5e;
   resize: none;
@@ -414,12 +438,19 @@ footer li {
 }
 
 .socials {
-  font-size: 3rem;
+  font-size: 3.6rem;
 }
 
 /*************************************
 BUTTON
 *************************************/
+.btn-container {
+  border-radius: 1rem; 
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -khtml-border-radius: 1rem;
+}
+
 .btn {
   display: flex; 
   justify-content: center; 
