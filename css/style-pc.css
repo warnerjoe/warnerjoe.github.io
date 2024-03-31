@@ -36,7 +36,7 @@ body {
 
 .site-container {
   margin: auto;
-  width: 144.0rem;
+  width: 90%;
 }
 
 button, input[type="submit"], input[type="reset"] {
@@ -177,38 +177,84 @@ ABOUT
   margin: 1rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*************************************
 PROJECTS
 *************************************/
-.project-image {
-  max-width: 30rem;
+.projects-cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: flex-start;
+  flex-wrap: wrap;
 }
+
+.project-card {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  max-width: 40%;
+  padding: 0 2rem;
+}
+
+.project-name {
+  font-size: 2.4rem; 
+  text-align: left;
+}
+
+.project-hr {
+  height: .1rem;
+  width: 100%;
+}
+
+.project-para {
+  font-size: 1.8rem; 
+  text-align: left;
+}
+
+.project-image {
+  max-width: 100%;
+}
+
+.tech-stack-list, .project-links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.project-card li {
+  display: inline-block;
+  padding: 2rem;
+}
+
+.project-card i {
+  font-size: 3.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*************************************
 CONTACTS
 *************************************/
