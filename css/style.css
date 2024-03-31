@@ -26,6 +26,10 @@ body {
   color: black;
 }
 
+.site-container {
+  width: 100%;
+}
+
 /*************************************
 HEADER / REG NAV
 *************************************/
@@ -199,31 +203,27 @@ HOME
 }
 
 .heading-container {
-  display: flex;
-  justify-content: center; 
-  align-items: center; 
-  align-self: stretch; 
-  gap: 10px; 
   padding-top: 10px; 
   padding-bottom: 10px;
 }
 
 .home-heading {
+  width: 100%;
   flex-grow: 1; 
-  width: 255px; 
-  font-size: 36px; 
+  width: 25.5rem; 
+  font-size: 3.6rem; 
   text-align: center; 
   color: #111;
 }
 
 .home-hr {
-
+  height: .1rem;
+  width: 26.3rem;
 }
 
 .home-para {
   flex-grow: 1; 
-  width: 255px; 
-  font-size: 21px; 
+  font-size: 2.1rem; 
   text-align: center; 
   color: #111;
 }
