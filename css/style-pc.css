@@ -1,0 +1,137 @@
+/*************************************
+GLOBAL
+*************************************/
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: black;
+}
+
+.site-container {
+  width: 144.0rem;
+}
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*************************************
+HEADER / REG NAV
+*************************************/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hamburger-container {
+  display: flex; 
+  padding-left: 3.2rem; 
+  padding-right: 3.2rem; 
+  padding-top: 3.6rem; 
+  padding-bottom: 3.6rem;
+}
+
+h1 {
+  display: inline-block;
+  margin-left: 2.4rem;
+  font-size: 3.2rem; 
+  font-weight: 400;  
+}
+
+header ul {
+  display: flex; 
+  justify-content: space-between; 
+  width: 62rem;
+  margin-right: 2.4rem;
+}
+
+header li {
+  display: inline-block;
+}
+
+header a {
+  flex-grow: 0; flex-shrink: 0; font-size: 24px; text-align: left; color: #000;
+}
+
+.hamburger-container .checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+/*************************************
+HOME
+*************************************/
+
+/*************************************
+ABOUT
+*************************************/
+
+/*************************************
+PROJECTS
+*************************************/
+.project-image {
+  max-width: 30rem;
+}
+/*************************************
+CONTACTS
+*************************************/
+
+
+/*************************************
+FOOTER
+*************************************/
+
+/*************************************
+BUTTON
+*************************************/
+.btn {
+  padding-left: 3.5rem; 
+  padding-right: 3.5rem; 
+  padding-top: 1rem; 
+  padding-bottom: 1rem; 
+  border-radius: 1rem; 
+  background: #111;
+  font-size: 2.4rem; 
+  color: #fff;
+}
+
+.btn-dark {
+
+}
+
+.btn-light
+
