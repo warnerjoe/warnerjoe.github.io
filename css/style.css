@@ -34,11 +34,18 @@ header {
   justify-content: space-between;
 }
 
-.nav-list-item {
-  font-size: 2.4rem; 
-  text-align: center; 
-  color: #000;
-  padding-top: 1.2rem;
+header a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+header a:hover {
+  color: inherit;
+}
+
+.hamburger-container .checkbox {
+  opacity: 0;
+  position: absolute;
 }
 
 
@@ -53,13 +60,7 @@ HAMBURGER MENU
     right: 10px;
     transition: transform 0.5s ease;
   }
-  
-  /* We don't need the checkbox to be visible, but we can't set it to display: none because this will break keyboard navigation. Instead set the opacity to 0 and the position to absolute so it doesn't push the rest of the content down */
-  .hamburger-container .checkbox {
-    opacity: 0;
-    position: absolute;
-  }
-  
+    
   /* Show an outline when the hamburger is selected using the keyboard. Older browsers don't support :focus-visible, so we will just use :focus here. */
   .hamburger-container .checkbox:focus ~ .hamburger {
     /* Not all browsers support outline: auto, so set a sensible fallback outline. */
@@ -168,14 +169,13 @@ HAMBURGER MENU
     padding: 10px;
   }
   
-  a {
-    color: inherit;
-    text-decoration: inherit;
+  .nav-list-item {
+    font-size: 2.4rem; 
+    text-align: center; 
+    color: #000;
+    padding-top: 1.2rem;
   }
   
-  a:hover {
-    color: inherit;
-  }
 }
 
 /*************************************
@@ -189,6 +189,13 @@ ABOUT
 /*************************************
 PROJECTS
 *************************************/
+.project-card {
+  margin: 2.4rem;
+}
+
+.project-image {
+  max-width: 100%;
+}
 
 /*************************************
 CONTACTS
