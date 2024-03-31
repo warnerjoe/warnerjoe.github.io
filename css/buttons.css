@@ -1,101 +1,25 @@
-/**************************************************************************
-MOBILE LAYOUT
-**************************************************************************/
-@media (max-width: 600px) {
-    /*************************************
-BUTTON
+/*************************************
+BUTTON - ANY SIZE
 *************************************/
-.btn-container {
-    border-radius: 1rem; 
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -khtml-border-radius: 1rem;
-  }
-  
-  .btn {
+.btn {
     display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    width: 20.2rem; 
-    position: relative; 
-    overflow: hidden; 
-    gap: 1rem; 
+    justify-content: center;
+    align-items: center;
     padding-left: 3.5rem; 
     padding-right: 3.5rem; 
     padding-top: 1rem; 
     padding-bottom: 1rem; 
     border-radius: 1rem; 
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -khtml-border-radius: 1rem;
-    font-size: 2.4rem; 
-    text-align: left; 
     border: 1px solid black;
-  }
-  
-  .btnNotRelative {
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    width: 20.2rem; 
-    overflow: hidden; 
-    gap: 1rem; 
-    padding-left: 3.5rem; 
-    padding-right: 3.5rem; 
-    padding-top: 1rem; 
-    padding-bottom: 1rem; 
-    border-radius: 1rem; 
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -khtml-border-radius: 1rem;
     font-size: 2.4rem; 
-    text-align: left; 
-    border: 1px solid black;
   }
-  
-  .btn-dark {
+
+.btn-dark {
     background: #111;
     color: #fff;
-  }
-  
-  .btn-light {
+}
+
+.btn-light {
     background: #fff;
     color: #111;
-  }
-  
-  main > div > a {
-    border-radius: 1rem; 
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -khtml-border-radius: 1rem;
-    overflow: hidden;
-  }
-    }
-    
-/**************************************************************************
-PC LAYOUT
-**************************************************************************/
-@media (min-width: 600px) {
-    /*************************************
-BUTTON
-*************************************/
-.btn, .btnNotRelative {
-    padding-left: 3.5rem; 
-    padding-right: 3.5rem; 
-    padding-top: 1rem; 
-    padding-bottom: 1rem; 
-    border-radius: 1rem; 
-    border: 1px solid black;
-    font-size: 2.4rem; 
-  }
-  
-  .btn-dark {
-    color: #fff;
-    background: #111;
-  }
-  
-  .btn-light{
-    color: #111;
-    background: #fff;
-  }
 }
