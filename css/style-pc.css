@@ -138,6 +138,7 @@ main {
 
 .home-para {
   width: 100%;
+  max-width: 80rem;
   font-size: 1.8rem; 
   text-align: center; 
 }
@@ -165,6 +166,7 @@ ABOUT
 
 .about-para {
   width: 100%; 
+  max-width: 88rem;
   font-size: 1.8rem; 
   text-align: center;
 }
@@ -194,7 +196,8 @@ PROJECTS
   flex-direction: column; 
   justify-content: center; 
   align-items: center; 
-  max-width: 40%;
+  width: 100%;
+  max-width: 49.5rem;
   padding: 0 2rem;
 }
 
@@ -209,6 +212,8 @@ PROJECTS
 }
 
 .project-para {
+  width: 100%;
+  max-width: 49.4rem;
   font-size: 1.8rem; 
   text-align: left;
 }
