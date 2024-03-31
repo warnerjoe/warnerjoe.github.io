@@ -1,66 +1,40 @@
-/**************************************************************************
-MOBILE LAYOUT
-**************************************************************************/
-@media (max-width: 600px) {
 /*************************************
 ABOUT
 *************************************/
 .about-container {
     display: flex;
-    justify-content: center;
-    width: 100%;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     padding-left: 6rem; 
     padding-right: 6rem; 
     padding-top: 1rem; 
     padding-bottom: 1rem;
-  }
-  
-  .about-para {
-    flex-basis: 100%;
-    flex-basis: 1 5;
-    font-size: 18px; 
-    text-align: center; 
-    color: #111;
-  }
-  
-  .about-container li {
-    display: inline-block;
-    margin: 1rem;
-  }
-  
-  .about-container i {
-    font-size: 3.5rem;
-  }
 }
 
-/**************************************************************************
-PC LAYOUT
-**************************************************************************/
-@media (min-width: 600px) {
-    /*************************************
-ABOUT
-*************************************/
-.about-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .about-para {
+.about-para {
     width: 100%; 
     max-width: 88rem;
     font-size: 1.8rem; 
     text-align: center;
-  }
-  
-  .about-container li {
+}
+
+.about-container li {
     display: inline-block;
-  }
-  
-  .about-container i {
+    margin: 1rem;
+}
+
+.about-container i {
     font-size: 7.2rem;
     margin: 1rem;
-  }
+}
+
+/**************************************************************************
+MOBILE LAYOUT
+**************************************************************************/
+@media (max-width: 600px) {
+
+    .about-container i {
+        font-size: 3.5rem;
+    }
+
 }
