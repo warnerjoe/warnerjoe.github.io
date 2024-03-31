@@ -305,26 +305,53 @@ CONTACT
   align-self: flex-end;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*************************************
 FOOTER
 *************************************/
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer li {
+  display: inline-block;
+  margin: 2rem;
+}
+
+footer i {
+  font-size: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*************************************
 BUTTON
@@ -354,7 +381,6 @@ BUTTON
 /**************************************************************************
 MOBILE LAYOUT
 **************************************************************************/
-
 @media (max-width: 600px) {
   /*************************************
 GLOBAL
@@ -896,4 +922,4 @@ main > div > a {
 }
 
 
-}
+} /*Closes Mobile media query do not delete*/
