@@ -35,6 +35,7 @@ body {
 }
 
 .site-container {
+  margin: auto;
   width: 144.0rem;
 }
 
@@ -97,6 +98,26 @@ header a {
   position: absolute;
 }
 
+.heading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+h2 {
+  margin-top: 10rem;
+  width: 880px; 
+  font-size: 36px; 
+  text-align: center;
+}
+
+.h2-hr {
+  height: .1rem;
+  width: 26.4rem;
+}
+
 /*************************************
 HOME
 *************************************/
@@ -107,6 +128,11 @@ main {
   align-items: center; 
   display: flex; 
   width: 100%;
+}
+
+.home-hr {
+  width: 26.4rem;
+  height: .1rem;
 }
 
 .home-para {
@@ -129,6 +155,53 @@ div#home-nav.home-buttons {
 /*************************************
 ABOUT
 *************************************/
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-para {
+  width: 88rem; 
+  font-size: 1.8rem; 
+  text-align: center;
+}
+
+.about-container li {
+  display: inline-block;
+}
+
+.about-container i {
+  font-size: 7.2rem;
+  margin: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*************************************
 PROJECTS
