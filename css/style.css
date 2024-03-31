@@ -327,6 +327,9 @@ BUTTON
   padding-top: 1rem; 
   padding-bottom: 1rem; 
   border-radius: 1rem; 
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -khtml-border-radius: 1rem;
   font-size: 2.4rem; 
   text-align: left; 
   border: 1px solid black;
@@ -344,6 +347,9 @@ BUTTON
   padding-top: 1rem; 
   padding-bottom: 1rem; 
   border-radius: 1rem; 
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -khtml-border-radius: 1rem;
   font-size: 2.4rem; 
   text-align: left; 
   border: 1px solid black;
