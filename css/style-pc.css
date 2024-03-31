@@ -740,6 +740,18 @@ CONTACTS
   padding-bottom: 25px;
 }
 
+.contact-input-container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0;
+}
+
+.contact-message-container {
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+}
+
 form {
   display: flex; 
   flex-direction: column; 
@@ -749,11 +761,14 @@ form {
   gap: 25px;
 }
 
-form > label {
-  flex-grow: 0; flex-shrink: 0; font-size: 18px; font-weight: 600; text-align: left; color: #111;
+form label {
+  font-size: 1.8rem;  
+  text-align: left;
+  margin-top: 1rem;
 }
 
-form > input {
+
+form input {
   width: 32.7rem; 
   font-size: 1.8rem; 
   text-align: left; 
@@ -766,7 +781,7 @@ form > input {
   border-color: #5e5e5e;
 }
 
-form > textarea {
+form textarea {
   width: 32.7rem; 
   font-size: 1.8rem; 
   text-align: left; 
@@ -779,10 +794,14 @@ form > textarea {
   border-color: #5e5e5e;
 }
 
-form > span > button {
+form span {
+  margin-top: 1rem;
+  align-self: flex-end;
+}
+
+form span button {
   color: #fff;
   background: #111;
-
 }
 
 
