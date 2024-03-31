@@ -1,4 +1,6 @@
-/* PC */
+/**************************************************************************
+PC LAYOUT
+**************************************************************************/
 @media (min-width: 600px) {
   
 /************************************
@@ -98,6 +100,31 @@ header a {
 /*************************************
 HOME
 *************************************/
+main {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  display: flex; 
+  width: 100%;
+}
+
+.home-para {
+  width: 80rem; 
+  font-size: 1.8rem; 
+  text-align: center; 
+}
+
+.home-buttons{
+  display: flex; 
+  margin-top: 6rem;
+  width: 100%; 
+  gap: 6.1rem;
+}
+
+div#home-nav.home-buttons {
+  justify-content: center;
+}
 
 /*************************************
 ABOUT
@@ -141,10 +168,11 @@ BUTTON
   background: #fff;
 }
 
+} /*Closes PC Media Query do not delete*/
 
-}
-
-/* MOBILE */
+/**************************************************************************
+MOBILE LAYOUT
+**************************************************************************/
 
 @media (max-width: 600px) {
   /*************************************
