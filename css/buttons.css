@@ -11,24 +11,29 @@ BUTTON - ANY SIZE
     padding-bottom: 1rem; 
     border-radius: 1rem; 
     border: 1px solid #111;
-    box-shadow: 0 3px 0 #111;
     font-size: 2.4rem; 
     max-width: 20.2rem;
     transition: all .1s linear;
   }
 
-  .btn:active {
-    box-shadow: 0 1px 0 #111;
-    transform: translateY(3px);
-  }
-
 .btn-dark {
     background: #111;
     color: #fff;
+    box-shadow: 0 3px 0 #2f302f;
+}
 
+.btn-dark:active{
+    box-shadow: 0 1px 0 #2f302f;
+    transform: translateY(3px);
 }
 
 .btn-light {
     background: #fff;
     color: #111;
+    box-shadow: 0 3px 0 #111;
 }
+
+.btn-light:active {
+    box-shadow: 0 1px 0 #111;
+    transform: translateY(3px);
+  }
