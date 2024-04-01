@@ -2,53 +2,61 @@
 HOME
 *************************************/
 .home-container {
-  display: flex; 
-  flex-direction: column; 
-  gap: 25px; 
-  padding: 6rem 1rem
+    display: flex; 
+    flex-direction: column; 
+    gap: 25px; 
+    padding: 6rem 1rem
 }
 
 main {
-  display: flex; 
-  flex-direction: column; 
-  justify-content: center; 
-  align-items: center; 
-  display: flex; 
-  width: 100%;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    display: flex; 
+    width: 100%;
 }
 
 .home-hr {
-  width: 26.4rem;
-  height: .1rem;
+    width: 26.4rem;
+    height: .1rem;
 }
 
 .home-para {
-  width: 100%;
-  max-width: 80rem;
-  font-size: 2.1rem; 
-  text-align: center; 
-  line-height: 3rem;
+    width: 100%;
+    max-width: 80rem;
+    font-size: 2.1rem; 
+    text-align: center; 
+    line-height: 3rem;
 }
 
 .home-buttons{
-  display: flex; 
-  margin-top: 6rem;
-  width: 100%; 
-  gap: 6.1rem;
-  justify-content: center;
+    display: flex; 
+    margin-top: 6rem;
+    width: 100%; 
+    gap: 6.1rem;
+    justify-content: center;
 }
 
 /**************************************************************************
 MOBILE LAYOUT
 **************************************************************************/
-@media (max-width: 600px) {
-  .home-para {
-    max-width: 25.5rem;
-  }
-  
-  .home-buttons {
-    flex-direction: column;
-    align-items: center; 
-    gap: 2.5rem;
-  }
+@media (max-width: 875px) {
+    #home-header > .home-heading {
+        display: none;
+    }
+
+    #home-header > .home-hr {
+        display: none;
+    }
+
+    .home-para {
+        max-width: 25.5rem;
+    }
+
+    .home-buttons {
+        flex-direction: column;
+        align-items: center; 
+        gap: 2.5rem;
+    }
 }

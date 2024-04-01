@@ -77,12 +77,4 @@ MOBILE LAYOUT
     .site-container {
         width: 100%;
     }
-
-    h2:first-of-type {
-        display: none;
-    }
-
-    .home-hr {
-        display: none;
-    }
 }
