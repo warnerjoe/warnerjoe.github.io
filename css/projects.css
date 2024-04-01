@@ -3,132 +3,54 @@ PROJECTS
 *************************************/
 .projects-cards-container {
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
-    align-content: flex-start;
     flex-wrap: wrap;
-  }
-  
-  .project-card {
+}
+
+.project-card {
     display: flex; 
     flex-direction: column; 
     justify-content: center; 
-    align-items: center; 
     width: 100%;
     max-width: 49.5rem;
-    padding: 0 2rem;
-  }
-  
-  .project-name {
-    font-size: 2.4rem; 
-    text-align: left;
+    padding: 2.5rem 2.4rem;
+}
+
+.project-image {
     width: 100%;
-    
-  }
-  
-  .project-hr {
+    max-width: 49.5rem;
+}
+
+.project-name {
+    font-size: 2.4rem; 
+    width: 100%;
+}
+
+.project-hr {
     height: .1rem;
     width: 100%;
-  }
-  
-  .project-para {
+}
+
+.project-para {
     width: 100%;
     max-width: 49.4rem;
     font-size: 1.8rem; 
     text-align: left;
-  }
-  
-  .project-image {
-    width: 100%;
-    max-width: 49.5rem;
-  }
-  
-  .tech-stack-list, .project-links {
+}
+
+.tech-stack-list, .project-links {
     width: 100%;
     display: flex;
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-  }
-  
-  .project-card li {
+}
+
+.project-card li {
     display: inline-block;
     padding: 2rem;
-  }
-  
-  .project-card i {
-    font-size: 3rem;
-  }
+}
 
-/**************************************************************************
-MOBILE LAYOUT
-**************************************************************************/
-@media (max-width: 600px) {
-    .project-card {
-        padding: 2.5rem 2.4rem;
-    }
-
-    .project-image {
-        max-width: 100%;
-    }
-
-    .project-name {
-        width: 32.7rem; 
-        font-size: 2.4rem; 
-        text-align: left; 
-        color: #111;
-    }
-
-    .project-hr {
-        width: 32.7rem;
-        height: .1rem;
-    }
-
-    .project-para {
-        flex-grow: 1; 
-        width: 32.7rem; 
-        font-size: 1.8rem; 
-        text-align: left; 
-        color: #111;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-    }
-
-    .tech-stack-container {
-        width: 100%;
-    }
-
-    .tech-stack-container ul {
-        display: flex; 
-        justify-content: space-evenly; 
-    }
-
-    .project-card i {
-        font-size: 3.5rem;
-    }
-
-    .project-card li {
-        display: inline-block;
-    }
-
-    .project-links-container ul {
-        display: flex;
-        justify-content: center;
-        margin-top: 2rem;
-    }
-
-    .project-links-container li {
-        margin: 0 2rem;
-    }
-
-
-    .code-link {
-        color: #111;
-        text-decoration: inherit;
-    }
-
-    .code-link:visited {
-        color: inherit;
-        text-decoration: inherit;
-    }
+.project-card i {
+    font-size: 3.5rem;
 }
