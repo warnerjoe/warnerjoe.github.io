@@ -33,6 +33,7 @@ body {
     margin: auto;
     width: 90%;
     max-width: 144rem;
+    overflow: hidden;
 }
 
 button, input[type="submit"], input[type="reset"] {
@@ -76,5 +77,6 @@ MOBILE LAYOUT
  
     .site-container {
         width: 100%;
+        margin: 0;
     }
 }
